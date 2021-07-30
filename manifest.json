@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "remove video title",
+  "version": "1.0.0",
+  "description": "removes youtube title",
+  "browser_action": {
+    "default_icon": "1.png"
+},
+"permissions": [
+    "activeTab",
+    "clipboardWrite"
+],
+  "background":{
+    "persistent": false,
+    "scripts": ["background.js"]
+  }
+}
